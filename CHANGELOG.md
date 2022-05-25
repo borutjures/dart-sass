@@ -1,3 +1,7 @@
+## 1.52.2
+
+* Add support for 32-bit ARM releases on Linux.
+
 ## 1.52.1
 
 ### Command Line Interface
