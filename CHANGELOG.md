@@ -1,3 +1,7 @@
+## 1.54.1
+
+* Release a native ARM64 executable for Mac OS.
+
 ## 1.54.0
 
 * Deprecate selectors with leading or trailing combinators, or with multiple
