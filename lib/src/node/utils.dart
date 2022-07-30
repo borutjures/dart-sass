@@ -194,7 +194,7 @@ JSArray toJSArray(Iterable<Object?> iterable) {
 /// Converts a JavaScript record into a map from property names to their values.
 Map<String, Object?> objectToMap(Object object) {
   var map = <String, Object?>{};
-  jsForEach(object, (key, value) => map[key] = value);
+  jsForEach(object, (key, value) => map[key] = value == null || value is String || value is num || value is bool ? value : objectToMap(value));
   return map;
 }
 
